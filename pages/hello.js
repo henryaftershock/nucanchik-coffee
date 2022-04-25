@@ -1,9 +1,8 @@
+import styles from "../styles/hello.module.css";
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import HeroStore from "../components/hero-store/hero-store.component";
 
-export default function Home() {
+const Hello = () => {
   return (
     <div>
       <Head>
@@ -12,4 +11,6 @@ export default function Home() {
       <HeroStore />
     </div>
   );
-}
+};
+
+export default Hello;
