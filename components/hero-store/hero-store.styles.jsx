@@ -48,6 +48,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.h2`
   color: ${({ theme }) => theme.palette.text.primary};
   font-size: 1.5rem;
+  font-weight: 400;
 `;
 
 export const StyledButton = styled(CustomButton)`

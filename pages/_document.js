@@ -11,8 +11,22 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="preload"
+            href="/fonts/IBMPlexSans-Bold.ttf"
+            as="font"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/IBMPlexSans-Regular.ttf"
+            as="font"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
+            href="/fonts/IBMPlexSans-SemiBold.ttf"
+            as="font"
+            crossOrigin="anonymous"
           />
         </Head>
         <body>
